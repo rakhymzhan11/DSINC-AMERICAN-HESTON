@@ -7,8 +7,8 @@ Two independent Python pricers for American/European puts under the Heston model
 
 Two independent, self-contained Python pricers for **European and American put
 options** under the Heston stochastic-volatility model (constant coefficients).
-The two methods rest on entirely different principles — a semi-analytical spectral
-integral equation and a finite-difference PDE solver — so running both is a strong
+The two methods rest on entirely different principles, a semi-analytical spectral
+integral equation and a finite-difference PDE solver, so running both is a strong
 mutual cross-check, and each can serve as a reference for the other.
 
 This code accompanies a research paper on valuing American options and flexible-forward
@@ -157,22 +157,6 @@ code or numerical machinery.
   updates. The two American treatments converge to the same price; switch with
   `{"policy": 0}` when speed matters.
 
----
-
-## References
-
-- S. L. Heston, *A closed-form solution for options with stochastic volatility…*,
-  Review of Financial Studies, 1993.
-- F. Fang and C. W. Oosterlee, *A novel pricing method… based on Fourier-cosine series
-  (COS)*, SIAM J. Sci. Comput., 2008.
-- K. J. in 't Hout and S. Foulon, *ADI finite difference schemes for option pricing in
-  the Heston model with correlation*, Int. J. Numer. Anal. Model., 2010.
-- T. Haentjens and K. J. in 't Hout, *ADI schemes for pricing American options under
-  the Heston model*, Applied Math. Finance, 2015.
-- S. Ikonen and J. Toivanen, *Operator splitting methods for pricing American options
-  under stochastic volatility*, Numer. Math., 2009.
-- R. Zvan, P. A. Forsyth and K. R. Vetzal, *Penalty methods for American options with
-  stochastic volatility*, J. Comput. Appl. Math., 1998.
 
 ---
 
