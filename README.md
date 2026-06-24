@@ -150,12 +150,10 @@ code or numerical machinery.
 
 - The spectral pricer takes roughly **0.8 s** per price at the default resolution
   (`Nv=16, Nom=600`); cost grows about `Nt²` with maturity (`Nt = max(16, 14+6T)`).
-- The finite-difference pricer with **Bermudan projection** (`policy=0`) is very fast
-  (about 0.1–0.3 s). The **penalized policy iteration** (`policy=1`, the default) is
-  more faithful to the linear-complementarity formulation but several times slower
-  (a few seconds), because the penalized stage is refactorized as the active set
-  updates. The two American treatments converge to the same price; switch with
-  `{"policy": 0}` when speed matters.
+- The finite-difference pricer with **penalized policy iteration** (`policy=1`, the default) is
+  more faithful to the linear-complementarity formulation and it takes around **5 s** per price,
+  because the penalized stage is refactorized as the active set
+  updates.
 
 
 ---
