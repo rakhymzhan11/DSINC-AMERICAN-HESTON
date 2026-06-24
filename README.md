@@ -156,10 +156,5 @@ code or numerical machinery.
   updates.
 
 
----
 
-## License
-
-Released for public use as a companion to the accompanying paper. Add the license of
-your choice (e.g. MIT) before distribution.
 
