@@ -13,7 +13,7 @@ This code accompanies the paper:
 
 > L. Andersen, A. Itkin and R. Kazbek,
 > *Valuing American options and Flexible Forwards contracts in time-dependent models.*
-> SSRN: *to be added* · arXiv: *to be added*.
+> SSRN:https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6991498 · arXiv: *to be added*.
 
 A flexible forward (window forward) is, in essence, an American-style option on the
 timing of delivery, and is priced with exactly these techniques.
